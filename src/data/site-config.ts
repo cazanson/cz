@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://example.com',
     title: 'Ca’ Zanson',
-    subtitle: 'Minimal Astro.js theme',
+    subtitle: 'Mark Johnson\'s personal site',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -63,6 +63,9 @@ const siteConfig: SiteConfig = {
         {
             text: 'Tags',
             href: '/tags'
+        },
+        {   text: 'CV',
+            href: '/cv'
         }
     ],
     footerNavLinks: [
