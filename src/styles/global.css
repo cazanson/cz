@@ -1,5 +1,9 @@
-@import '@fontsource-variable/inter' layer(base);
-@import '@fontsource-variable/newsreader' layer(base);
+/* @import '@fontsource-variable/inter' layer(base);
+@import '@fontsource-variable/newsreader' layer(base); */
+
+@import './valkyrie_ot.css';
+@import './valkyrie_sc.css';
+
 @import '@fontsource-variable/newsreader/wght-italic.css' layer(base);
 
 @import 'tailwindcss';
@@ -53,8 +57,10 @@ html.dark {
 */
 
 @theme inline {
-    --font-sans: 'Inter Variable', sans-serif;
-    --font-serif: 'Newsreader Variable', serif;
+    /* --font-sans: 'Inter Variable', sans-serif;
+    --font-serif: 'Newsreader Variable', serif; */
+    --font-sans: 'Valkyrie', sans-serif;
+    --font-serif: 'Valkyrie', serif;
     --text-color-main: var(--text-main);
     --background-color-main: var(--bg-main);
     --background-color-muted: var(--bg-muted);
