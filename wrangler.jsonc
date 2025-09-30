@@ -1,7 +1,7 @@
 {
-  “name”: “cz”,
-  “compatibility_date”: “2025-06-13”,
-  “assets”: {
-    “directory”: “./dist”
+  "name": "cz",
+  "compatibility_date": "2025-06-13",
+  "assets": {
+    "directory": "./dist"
   }
 }
