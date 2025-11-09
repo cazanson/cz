@@ -1,8 +1,8 @@
 /* @import '@fontsource-variable/inter' layer(base);
 @import '@fontsource-variable/newsreader' layer(base); */
 
-@import './valkyrie_ot.css';
-@import './valkyrie_sc.css';
+@import '/valkyrie_ot.css';
+@import '/valkyrie_sc.css';
 
 @import '@fontsource-variable/newsreader/wght-italic.css' layer(base);
 
